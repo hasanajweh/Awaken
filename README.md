@@ -1,11 +1,11 @@
-# Awaken
+# DisplayKeep
 
 A zero-interaction Windows utility whose only job is to keep the system and
 display awake while it is running.
 
 ## Privacy and behavior
 
-Awaken:
+DisplayKeep:
 
 - makes no network requests;
 - collects and sends no telemetry or analytics;
@@ -33,16 +33,16 @@ build.cmd
 
 The build uses the .NET Framework compiler included with Windows. It does not
 restore packages, contact NuGet, or require an SDK installation. The output is
-`publish\Awaken.exe`.
+`publish\DisplayKeep.exe`.
 
 ## Run and stop
 
-Double-click `Awaken.exe` to start it. It intentionally has no interface.
+Double-click `DisplayKeep.exe` to start it. It intentionally has no interface.
 Start it a second time and the duplicate exits immediately.
 
-To stop it, end `Awaken.exe` in Task Manager. Windows automatically clears
+To stop it, end `DisplayKeep.exe` in Task Manager. Windows automatically clears
 the execution-state request when the process ends.
 
 If automatic startup is allowed by your organization, place a shortcut to the
-executable in your personal Startup folder. Awaken itself does not alter
+executable in your personal Startup folder. DisplayKeep itself does not alter
 startup settings.

@@ -10,5 +10,5 @@ if not exist "%CSC%" (
 
 if not exist "publish" mkdir "publish"
 
-"%CSC%" /nologo /target:winexe /platform:x86 /optimize+ /debug- /warn:4 /out:"publish\Awaken.exe" "Program.cs"
+"%CSC%" /nologo /target:winexe /platform:x86 /optimize+ /debug- /warn:4 /out:"publish\DisplayKeep.exe" "Program.cs"
 exit /b %ERRORLEVEL%

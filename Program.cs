@@ -4,7 +4,7 @@ using System.Threading;
 
 internal static class Program
 {
-    private const string SingleInstanceMutexName = @"Local\Awaken.ZeroInteraction";
+    private const string SingleInstanceMutexName = @"Local\DisplayKeep.ZeroInteraction";
 
     [Flags]
     private enum ExecutionState : uint
